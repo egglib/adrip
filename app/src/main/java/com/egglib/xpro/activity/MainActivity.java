@@ -1,7 +1,9 @@
-package com.egglib.xpro;
+package com.egglib.xpro.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.egglib.xpro.R;
 
 public class MainActivity extends AppCompatActivity {
 

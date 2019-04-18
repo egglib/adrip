@@ -1,4 +1,4 @@
-package  com.qmxs.qianmonr.util;
+package com.egglib.xpro.util;
 
 import com.orhanobut.logger.Logger;
 
