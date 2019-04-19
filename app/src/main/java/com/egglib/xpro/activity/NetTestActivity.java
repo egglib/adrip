@@ -19,12 +19,6 @@ import okhttp3.Request;
 import okhttp3.RequestBody;
 import okhttp3.Response;
 
-/*
- * File: NetTestActivity.java
- * Description:
- * Author: XiaoTao
- * Create at 2019-04-18 10:39
- */
 public class NetTestActivity extends BaseCommonTitleActivity {
 
     @Override

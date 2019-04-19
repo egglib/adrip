@@ -8,12 +8,6 @@ import com.egglib.xpro.R;
 import com.gyf.barlibrary.ImmersionBar;
 
 
-/*
- * File: BaseActivity.java
- * Description: 基类
- * Author: XiaoTao
- * Create at 2019/2/18 9:44 PM
- */
 public abstract class BaseActivity extends AppCompatActivity {
 
     @Override
