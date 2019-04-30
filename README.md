@@ -10,3 +10,6 @@ https://www.jianshu.com/p/0ad916fd13d5
 
 ##### Android P新特性
 https://www.jianshu.com/p/3600483f9c9f
+
+##### Gradle 地址
+https://services.gradle.org/distributions/
