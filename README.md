@@ -14,3 +14,6 @@ https://www.jianshu.com/p/3600483f9c9f
 ##### Gradle 下载地址
 
 https://services.gradle.org/distributions/
+
+##### 阴影工具
+http://inloop.github.io/
