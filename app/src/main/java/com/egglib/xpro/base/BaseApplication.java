@@ -1,7 +1,7 @@
 package com.egglib.xpro.base;
 
 import android.app.Application;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 
 import com.egglib.xpro.BuildConfig;

@@ -1,7 +1,7 @@
 package com.qmxs.qianmonr.util;
 
 
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * RecyclerView 工具类
