@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'org.greenrobot.greendao'
 
 android {
     compileSdkVersion 28
@@ -22,6 +23,12 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+}
+
+greendao{
+    schemaVersion 1
+    daoPackage 'com.egglib.xpro.db'
+    targetGenDir 'src/main/java'
 }
 
 dependencies {
@@ -73,4 +80,6 @@ dependencies {
 
     //greendao
     implementation 'org.greenrobot:greendao:3.2.2' // add library
+
+
 }
