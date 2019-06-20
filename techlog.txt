@@ -1,0 +1,23 @@
+
+Android开发中或多或少都会接触到数据库。Android中提供了一个占用内存极小的关系型数据库，即：SQLite。
+
+虽然Android系统中提供了许多操作SQLite的API，但是还是需要手动去编写SQL语句。
+
+所以便出现了许多ORM（对象关系映射）框架。其中比较著名的有GreenDao、OrmLite、Litepal等。
+
+官网上的介绍，greenDAO 是一个将对象映射到 SQLite 数据库中的轻量且快速的 ORM 解决方案。（greenDAO is a light & fast ORM solution that maps objects to SQLite databases.）
+
+GreenDao特点
+
+性能最大化，可能是Android平台上最快的ORM框架
+易于使用的API
+最小的内存开销
+依赖体积小
+支持数据库加密
+强大的社区支持
+
+在root下build.gradle文件：
+
+
+
+
