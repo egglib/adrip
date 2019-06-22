@@ -17,6 +17,7 @@ public class Goods {
     private long id;
     private String name;
     private double price;
+
     @Generated(hash = 777608482)
     public Goods(long id, String name, double price) {
         this.id = id;
