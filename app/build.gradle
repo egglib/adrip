@@ -25,6 +25,7 @@ android {
     }
 }
 
+//数据库生成路径
 greendao{
     schemaVersion 1
     daoPackage 'com.egglib.xpro.db'

@@ -25,3 +25,6 @@ https://github.com/greenrobot/greenDAO
 https://search.maven.org/
 
 http://greenrobot.org/
+
+#### 动画
+http://svga.io/
