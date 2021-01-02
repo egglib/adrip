@@ -4,12 +4,7 @@ import org.greenrobot.greendao.annotation.Entity;
 import org.greenrobot.greendao.annotation.Id;
 import org.greenrobot.greendao.annotation.Generated;
 
-/*
- * File: Goods.java
- * Description:
- * Author: XiaoTao
- * Create at 2019-06-20 12:42
- */
+
 @Entity
 public class Goods {
 

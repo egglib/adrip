@@ -1,4 +1,4 @@
-package com.qmxs.qianmonr.util;
+package com.egglib.xpro.util;
 
 import android.graphics.Rect;
 import androidx.annotation.NonNull;
@@ -6,12 +6,6 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 
-/*
- * File: SpacesItemDecoration.java
- * Description:
- * Author: XiaoTao
- * Create at 2019/2/28 12:49 PM
- */
 public class LRSpacesItemDecoration extends RecyclerView.ItemDecoration {
 
     private int mLeft;

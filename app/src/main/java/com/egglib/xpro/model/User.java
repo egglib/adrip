@@ -4,12 +4,6 @@ import org.greenrobot.greendao.annotation.Entity;
 import org.greenrobot.greendao.annotation.Id;
 import org.greenrobot.greendao.annotation.Generated;
 
-/*
- * File: User.java
- * Description:
- * Author: XiaoTao
- * Create at 2019-06-20 11:59
- */
 @Entity
 public class User {
 

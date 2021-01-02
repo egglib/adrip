@@ -7,12 +7,6 @@ import android.view.View;
 
 import java.util.List;
 
-/*
- * File: BaseViewHolder.java
- * Description:
- * Author: XiaoTao
- * Create at 2019/2/22 7:00 PM
- */
 public class BaseViewHolder extends RecyclerView.ViewHolder {
 
     protected Context mContext;

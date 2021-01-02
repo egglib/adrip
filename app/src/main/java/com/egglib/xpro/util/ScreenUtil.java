@@ -1,14 +1,8 @@
-package  com.qmxs.qianmonr.util;
+package com.egglib.xpro.util;
 
 import android.content.Context;
 import android.util.DisplayMetrics;
 
-/*
- * File: ScreenUtil.java
- * Description:
- * Author: XiaoTao
- * Create at 2019/2/26 5:10 PM
- */
 public class ScreenUtil {
     private static int screenWidth = 0;
 

@@ -10,12 +10,6 @@ import android.widget.TextView;
 import com.egglib.xpro.R;
 import com.egglib.xpro.config.Global;
 
-/*
- * File: BaseCommonTitleActivity.java
- * Description:
- * Author: XiaoTao
- * Create at 2019/2/22 11:42 AM
- */
 public abstract class BaseCommonTitleActivity extends BaseActivity {
 
     protected static final int TYPE_LAYOUT_LINEAR = 0;

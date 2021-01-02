@@ -1,22 +1,10 @@
-package com.qmxs.qianmonr.util;
+package com.egglib.xpro.util;
 
 
 import androidx.recyclerview.widget.RecyclerView;
 
-/**
- * RecyclerView 工具类
- * <p>
- */
 public class RecyclerViewUtil {
 
-    /**
-     * 获取RecyclerView
-     *
-     * @param layoutManager
-     * @param animator
-     * @param hasFixedSize
-     * @return
-     */
     public static RecyclerView getRecyclerView(RecyclerView mRecyclerView, RecyclerView.LayoutManager layoutManager,
                                                RecyclerView.ItemAnimator animator, boolean hasFixedSize) {
         mRecyclerView.setLayoutManager(layoutManager);

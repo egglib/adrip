@@ -1,11 +1,5 @@
 package com.egglib.xpro.util;
 
-/*
- * File: StringUtil.java
- * Description:
- * Author: XiaoTao
- * Create at 2019/2/22 10:55 AM
- */
 public class StringUtil {
 
     /**

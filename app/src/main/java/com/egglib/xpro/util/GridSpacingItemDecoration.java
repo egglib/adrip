@@ -1,13 +1,9 @@
-package  com.qmxs.qianmonr.util;
+package com.egglib.xpro.util;
 
 import android.graphics.Rect;
 import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 
-/**
- * <p>
- * 九宫格的间隔处理类
- */
 public class GridSpacingItemDecoration extends RecyclerView.ItemDecoration {
 
     /**

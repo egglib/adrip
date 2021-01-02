@@ -1,10 +1,5 @@
 package com.egglib.xpro.util;
 
-/**
- * 日期相关的工具类
- * Created by Harvey on 2017/11/23.
- */
-
 import android.text.TextUtils;
 
 import java.text.DateFormat;

@@ -1,13 +1,8 @@
-package  com.qmxs.qianmonr.util;
+package com.egglib.xpro.util;
 
 import android.graphics.Color;
 
-/*
- * File: ColorUtil.java
- * Description:
- * Author: XiaoTao
- * Create at 2019/2/20 3:15 PM
- */
+
 public class ColorUtil {
 
     public static int adjustAlpha(int shadowAlpha, int shadowColor) {

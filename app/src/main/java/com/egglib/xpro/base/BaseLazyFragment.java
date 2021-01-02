@@ -2,12 +2,6 @@ package com.egglib.xpro.base;
 
 import android.view.View;
 
-/*
- * File: BaseLazyFragment.java
- * Description:
- * Author: XiaoTao
- * Create at 2019/2/19 6:42 PM
- */
 public abstract class BaseLazyFragment extends BaseFragment {
 
     private boolean isPrepared = false;

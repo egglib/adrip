@@ -3,13 +3,12 @@ package com.egglib.xpro.base;
 import android.app.Application;
 
 import androidx.annotation.Nullable;
-
-import com.egglib.xpro.BuildConfig;
 import com.egglib.xpro.config.Global;
 import com.egglib.xpro.db.DbOpenHelper;
+import com.egglib.xpro.util.ScreenUtil;
 import com.orhanobut.logger.AndroidLogAdapter;
+import com.orhanobut.logger.BuildConfig;
 import com.orhanobut.logger.Logger;
-import com.qmxs.qianmonr.util.ScreenUtil;
 import com.squareup.leakcanary.LeakCanary;
 
 public class BaseApplication extends Application {

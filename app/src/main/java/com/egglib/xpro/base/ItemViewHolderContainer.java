@@ -1,12 +1,6 @@
 package com.egglib.xpro.base;
 
 
-/*
- * File: ItemViewHolderContainer.java
- * Description:
- * Author: XiaoTao
- * Create at 2019/2/22 7:49 PM
- */
 public class ItemViewHolderContainer {
 
     private int mItemViewId;

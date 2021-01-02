@@ -12,12 +12,6 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.Locale;
 
-/*
- * File: SystemUtil.java
- * Description:
- * Author: XiaoTao
- * Create at 2019/3/5 8:59 PM
- */
 public class SystemUtil {
 
     /**

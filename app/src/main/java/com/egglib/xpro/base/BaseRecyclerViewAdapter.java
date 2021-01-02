@@ -15,12 +15,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Set;
 
-/*
- * File: BaseRecyclerViewAdapter.java
- * Description:
- * Author: XiaoTao
- * Create at 2019/2/22 6:12 PM
- */
 public class BaseRecyclerViewAdapter extends RecyclerView.Adapter<BaseViewHolder> {
 
     private LayoutInflater mLayoutInflater;

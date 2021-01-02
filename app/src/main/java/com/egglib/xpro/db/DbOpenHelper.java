@@ -4,12 +4,6 @@ import android.database.sqlite.SQLiteDatabase;
 
 import com.egglib.xpro.base.BaseApplication;
 
-/*
- * File: DbOpenHelper.java
- * Description:
- * Author: XiaoTao
- * Create at 2019-06-20 15:04
- */
 public class DbOpenHelper {
 
     private static final String DB_NAME = "TEST_DB";
