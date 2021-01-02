@@ -15,9 +15,6 @@ https://www.jianshu.com/p/3600483f9c9f
 
 https://services.gradle.org/distributions/
 
-##### 阴影工具
-http://inloop.github.io/
-
 ##### GreenDao地址
 https://github.com/greenrobot/greenDAO
 
