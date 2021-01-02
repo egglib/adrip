@@ -34,11 +34,6 @@ public abstract class BaseCommonTitleActivity extends BaseActivity {
         return TYPE_LAYOUT_LINEAR;
     }
 
-    @Override
-    protected void afterSetContentView() {
-        super.afterSetContentView();
-        initBaseView();
-    }
 
     private void initBaseView() {
         mTitleContainer = findViewById(R.id.title_container);

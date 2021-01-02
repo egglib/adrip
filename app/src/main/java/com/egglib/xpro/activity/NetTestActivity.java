@@ -1,5 +1,7 @@
 package com.egglib.xpro.activity;
 
+import android.os.Bundle;
+
 import com.egglib.xpro.R;
 import com.egglib.xpro.base.BaseCommonTitleActivity;
 import com.egglib.xpro.util.LogUtil;
@@ -22,8 +24,18 @@ import okhttp3.Response;
 public class NetTestActivity extends BaseCommonTitleActivity {
 
     @Override
+    protected void init(Bundle savedInstanceState) {
+
+    }
+
+    @Override
     protected int getLayoutResId() {
         return R.layout.common_layout_title;
+    }
+
+    @Override
+    protected int getLayoutRes() {
+        return 0;
     }
 
     @Override
