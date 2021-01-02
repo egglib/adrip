@@ -1,9 +1,14 @@
 package com.egglib.xpro.util;
 
+import android.content.Context;
 import android.graphics.Color;
 
 
 public class ColorUtil {
+
+    public int getColor(Context context, int color){
+        return context.getResources().getColor(color);
+    }
 
     public static int adjustAlpha(int shadowAlpha, int shadowColor) {
         return Color.argb(shadowAlpha, Color.red(shadowColor), Color.green(shadowColor), Color.blue(shadowColor)

@@ -1,5 +1,7 @@
 package com.egglib.xpro.util;
 
+import android.content.Context;
+
 public class StringUtil {
 
     /**
@@ -14,5 +16,9 @@ public class StringUtil {
             newPhoneStr = phoneNumber.substring(0, 3) + "****" + phoneNumber.substring(7);
         }
         return newPhoneStr;
+    }
+
+    public String getString(Context context, int string) {
+        return context.getResources().getString(string);
     }
 }
