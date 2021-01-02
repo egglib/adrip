@@ -23,7 +23,7 @@ public abstract class BaseCommonTitleActivity extends BaseActivity {
     private LinearLayout mTitleContainer;
 
     @Override
-    protected int setContentViewId() {
+    protected int getLayoutResId() {
         if (getLayoutType() == TYPE_LAYOUT_FRAME) {
             return R.layout.activity_framelayout_base;
         }
@@ -148,7 +148,7 @@ public abstract class BaseCommonTitleActivity extends BaseActivity {
 
     protected void handleMainContainer() {
         mContainerMain.setBackgroundColor(getResources().getColor(setMainContainerBackgroundColor()));
-        getLayoutInflater().inflate(getLayoutResId(), mContainerMain);
+        getLayoutInflater().inflate(getLayoutRes(), mContainerMain);
     }
 
     private int setMainContainerBackgroundColor() {
@@ -160,7 +160,7 @@ public abstract class BaseCommonTitleActivity extends BaseActivity {
      *
      * @return
      */
-    protected abstract int getLayoutResId();
+    protected abstract int getLayoutRes();
 
 
     /**
