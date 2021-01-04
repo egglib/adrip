@@ -1,5 +1,6 @@
 package com.egglib.xpro.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -10,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.egglib.xpro.R;
 import com.egglib.xpro.db.DaoSession;
 import com.egglib.xpro.db.DbOpenHelper;
-import com.egglib.xpro.model.User;
+import com.egglib.xpro.bean.User;
 
 import java.util.List;
 
@@ -35,6 +36,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mNumTv.setText("成功插入" + num + "条");
         mQueryBtn = (TextView) findViewById(R.id.btn_query);
         mQueryBtn.setOnClickListener(this);
+
+        findViewById(R.id.btn_test).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, TestRecyclerViewActivity.class));
+            }
+        });
     }
 
     @Override

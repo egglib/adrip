@@ -1,4 +1,4 @@
-package com.egglib.xpro.base;
+package com.egglib.xpro.activity;
 
 import android.os.Bundle;
 
@@ -6,7 +6,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.egglib.xpro.R;
-import com.gyf.barlibrary.ImmersionBar;
+import com.gyf.immersionbar.ImmersionBar;
 
 
 public abstract class BaseActivity extends AppCompatActivity {
@@ -47,6 +47,5 @@ public abstract class BaseActivity extends AppCompatActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        ImmersionBar.with(this).destroy(); //必须调用该方法，防止内存泄漏
     }
 }

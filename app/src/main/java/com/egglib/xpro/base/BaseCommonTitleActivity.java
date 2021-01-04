@@ -8,6 +8,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.egglib.xpro.R;
+import com.egglib.xpro.activity.BaseActivity;
 import com.egglib.xpro.config.Global;
 
 public abstract class BaseCommonTitleActivity extends BaseActivity {

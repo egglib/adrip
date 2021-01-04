@@ -18,7 +18,7 @@ public class StringUtil {
         return newPhoneStr;
     }
 
-    public String getString(Context context, int string) {
+    public static String getString(Context context, int string) {
         return context.getResources().getString(string);
     }
 }

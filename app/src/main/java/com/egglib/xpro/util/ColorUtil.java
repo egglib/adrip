@@ -6,7 +6,7 @@ import android.graphics.Color;
 
 public class ColorUtil {
 
-    public int getColor(Context context, int color){
+    public static int getColor(Context context, int color){
         return context.getResources().getColor(color);
     }
 

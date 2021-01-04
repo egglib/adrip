@@ -22,7 +22,6 @@ public class BaseViewHolder extends RecyclerView.ViewHolder {
             }
         });
     }
-
     public void renderView(List<? extends RenderTypeModel> objectList, int position) {
 
     }
