@@ -1,7 +1,6 @@
 package com.egglib.xpro.activity;
 
 import android.os.Bundle;
-import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 
