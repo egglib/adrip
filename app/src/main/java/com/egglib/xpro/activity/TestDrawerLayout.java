@@ -1,9 +1,12 @@
 package com.egglib.xpro.activity;
 
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.View;
+import android.widget.Button;
 
 import androidx.annotation.NonNull;
+import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.egglib.xpro.R;
@@ -11,6 +14,7 @@ import com.egglib.xpro.R;
 public class TestDrawerLayout extends BaseActivity {
 
     private DrawerLayout mDrawerlayout;
+    private Button mBtnOpen;
 
     @Override
     protected void init(Bundle savedInstanceState) {
@@ -25,6 +29,13 @@ public class TestDrawerLayout extends BaseActivity {
     private void initViews() {
         mDrawerlayout = findViewById(R.id.drawerLayout);
         mDrawerlayout.addDrawerListener(mDrawerListener);
+        mBtnOpen = findViewById(R.id.btn_open);
+        mBtnOpen.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mDrawerlayout.openDrawer(GravityCompat.START);
+            }
+        });
     }
 
     private final DrawerLayout.DrawerListener mDrawerListener = new DrawerLayout.DrawerListener() {
