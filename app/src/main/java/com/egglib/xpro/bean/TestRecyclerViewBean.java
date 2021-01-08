@@ -1,4 +1,6 @@
 package com.egglib.xpro.bean;
 
-public class TestRecyclerViewBean {
+import com.egglib.xpro.list.ViewRenderType;
+
+public class TestRecyclerViewBean extends ViewRenderType {
 }
