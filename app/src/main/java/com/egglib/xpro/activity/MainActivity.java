@@ -3,9 +3,11 @@ package com.egglib.xpro.activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -66,5 +68,28 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mBtnQuerySql = findViewById(R.id.btn_query_sql);
         mBtnTestRecyclerview = findViewById(R.id.btn_test_recyclerview);
         mBtnTestDrawerLayout = findViewById(R.id.btn_test_drawer_layout);
+    }
+
+
+    private long exitTime = 0;
+
+
+    @Override
+    public boolean onKeyUp(int keyCode, KeyEvent event) {
+        if (keyCode == KeyEvent.KEYCODE_BACK) {
+            exitApp();
+            return true;
+        }
+        return super.onKeyDown(keyCode, event);
+    }
+
+    public void exitApp() {
+        if ((System.currentTimeMillis() - exitTime) > 2000) {
+            exitTime = System.currentTimeMillis();
+            Toast.makeText(this, "再按一次退出程序", Toast.LENGTH_SHORT).show();
+        } else {
+            System.exit(0);
+            //退出app
+        }
     }
 }
