@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">XPro</string>
+    <string name="action_settings">设置</string>
+    <string name="comment_title">请输入您的评价：</string>
+    <string name="comment_submit">提交</string>
+    <string name="comment_score">输入评价分数</string>
+    <string name="comment_hide_keyboard">收起键盘</string>
+    <string name="comment_hint">#还不错 #相当好 #真好看</string>
+    <string name="comment_open_keyboard">打开键盘</string>
 </resources>

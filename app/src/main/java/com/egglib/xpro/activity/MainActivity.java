@@ -2,7 +2,6 @@ package com.egglib.xpro.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
@@ -25,6 +24,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button mBtnQuerySql;
     private Button mBtnTestRecyclerview;
     private Button mBtnTestDrawerLayout;
+    private Button mBtnTestKeyboard;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mBtnQuerySql.setOnClickListener(this);
         mBtnTestRecyclerview.setOnClickListener(this);
         mBtnTestDrawerLayout.setOnClickListener(this);
+        mBtnTestKeyboard.setOnClickListener(this);
     }
 
     @Override
@@ -60,6 +61,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(new Intent(MainActivity.this, TestRecyclerViewActivity.class));
         } else if (v.getId() == R.id.btn_test_drawer_layout) {
             startActivity(new Intent(MainActivity.this, TestDrawerLayout.class));
+        }else if (v.getId()==R.id.btn_test_keyboard){
+            startActivity(new Intent(MainActivity.this, TestKeyboardActivity.class));
         }
     }
 
@@ -68,6 +71,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mBtnQuerySql = findViewById(R.id.btn_query_sql);
         mBtnTestRecyclerview = findViewById(R.id.btn_test_recyclerview);
         mBtnTestDrawerLayout = findViewById(R.id.btn_test_drawer_layout);
+        mBtnTestKeyboard = findViewById(R.id.btn_test_keyboard);
     }
 
 

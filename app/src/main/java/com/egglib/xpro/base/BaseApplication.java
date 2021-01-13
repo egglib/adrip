@@ -5,6 +5,7 @@ import android.app.Application;
 import androidx.annotation.Nullable;
 import com.egglib.xpro.config.Global;
 import com.egglib.xpro.db.DbOpenHelper;
+import com.egglib.xpro.util.CommonUtils;
 import com.egglib.xpro.util.ScreenUtil;
 import com.orhanobut.logger.AndroidLogAdapter;
 import com.orhanobut.logger.BuildConfig;
@@ -26,6 +27,7 @@ public class BaseApplication extends Application {
         if (mInstance == null) {
             mInstance = this;
         }
+        CommonUtils.init(this);
         ScreenUtil.initScreenInfo(this);
 //        initLeakCanary();
         initLog();
