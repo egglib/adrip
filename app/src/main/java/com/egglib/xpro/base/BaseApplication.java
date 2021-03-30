@@ -28,7 +28,7 @@ public class BaseApplication extends Application {
             mInstance = this;
         }
         CommonUtils.init(this);
-        ScreenUtil.initScreenInfo(this);
+//        ScreenUtil.initScreenInfo(this);
 //        initLeakCanary();
         initLog();
         getStatusHeight();

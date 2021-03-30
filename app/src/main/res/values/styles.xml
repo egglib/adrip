@@ -20,4 +20,34 @@
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
 
+
+    <style name="CustomDialogWithBg" parent="@android:style/Animation.Dialog">
+
+        <!--windowFrame 边框为无-->
+        <item name="android:windowFrame">@null</item>
+
+        <!--没有标题-->
+        <item name="android:windowNoTitle">true</item>
+
+        <!--除去背景-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+
+        <!--是否浮现在Activity之上-->
+        <item name="android:windowIsFloating">true</item>
+
+        <!--是否半透明-->
+        <item name="android:windowIsTranslucent">false</item>
+
+        <!--是否去掉覆盖层-->
+        <item name="android:windowContentOverlay">@null</item>
+
+        <item name="android:windowCloseOnTouchOutside">true</item>
+
+        <!--设置为true时候，整个Dialog的大背景就是半透明的黑色，如果设置为false就是全透明。-->
+        <item name="android:backgroundDimEnabled">true</item>
+
+        <!--设置背景颜色-->
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
 </resources>

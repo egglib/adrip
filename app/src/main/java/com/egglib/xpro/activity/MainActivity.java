@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         User user = new User(null, "hello", 20);
         daoSession = DbOpenHelper.getInstance().getSession();
         long num = daoSession.getUserDao().insert(user);
-        mTvSqlData.setText(String.format("数据库有%s条数据", String.valueOf(num)));
+//        mTvSqlData.setText(String.format("数据库有%s条数据", String.valueOf(num)));
         mBtnQuerySql.setOnClickListener(this);
         mBtnTestRecyclerview.setOnClickListener(this);
         mBtnTestDrawerLayout.setOnClickListener(this);
@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         } else if (v.getId() == R.id.btn_test_drawer_layout) {
             startActivity(new Intent(MainActivity.this, TestDrawerLayout.class));
         }else if (v.getId()==R.id.btn_test_keyboard){
-            startActivity(new Intent(MainActivity.this, TestKeyboardActivity.class));
+            startActivity(new Intent(MainActivity.this, TestKeyBoard2Activity.class));
         }
     }
 

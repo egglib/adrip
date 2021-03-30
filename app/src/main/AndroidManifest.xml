@@ -26,6 +26,7 @@
             android:name=".activity.TestKeyboardActivity"
             android:windowSoftInputMode="stateVisible" />
         <activity android:name=".activity.TestKeyboard1Activity" />
+        <activity android:name=".activity.TestKeyBoard2Activity" />
     </application>
 
 </manifest>
