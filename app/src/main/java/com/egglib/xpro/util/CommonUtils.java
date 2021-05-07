@@ -6,10 +6,6 @@ import android.util.DisplayMetrics;
 
 import com.egglib.xpro.base.BaseApplication;
 
-/**
- * Created by Administrator on 2018/1/17.
- */
-
 public class CommonUtils {
     private static int screenWidth;
     private static int screenHeight;
