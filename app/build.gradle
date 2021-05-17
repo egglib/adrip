@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
 apply plugin: 'org.greenrobot.greendao'
 
 android {
@@ -9,6 +10,7 @@ android {
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
+        multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -82,7 +84,12 @@ dependencies {
     implementation 'pub.devrel:easypermissions:3.0.0'
 
     //greendao
-    implementation 'org.greenrobot:greendao:3.3.0' // add library
+    implementation 'org.greenrobot:greendao:3.3.0'
+    implementation "androidx.core:core-ktx:1.3.2"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version" // add library
 
 
+}
+repositories {
+    mavenCentral()
 }

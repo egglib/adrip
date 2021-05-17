@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button mBtnTestRecyclerview;
     private Button mBtnTestDrawerLayout;
     private Button mBtnTestKeyboard;
+    private Button mBtnTestSum;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +44,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mBtnTestRecyclerview.setOnClickListener(this);
         mBtnTestDrawerLayout.setOnClickListener(this);
         mBtnTestKeyboard.setOnClickListener(this);
+        mBtnTestSum.setOnClickListener(this);
     }
 
     @Override
@@ -61,8 +63,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(new Intent(MainActivity.this, TestRecyclerViewActivity.class));
         } else if (v.getId() == R.id.btn_test_drawer_layout) {
             startActivity(new Intent(MainActivity.this, TestDrawerLayout.class));
-        }else if (v.getId()==R.id.btn_test_keyboard){
+        } else if (v.getId() == R.id.btn_test_keyboard) {
             startActivity(new Intent(MainActivity.this, TestKeyBoard2Activity.class));
+        }else if(v.getId() ==R.id.btn_test_sum){
+            startActivity(new Intent(MainActivity.this,TestActivity.class));
         }
     }
 
@@ -72,6 +76,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mBtnTestRecyclerview = findViewById(R.id.btn_test_recyclerview);
         mBtnTestDrawerLayout = findViewById(R.id.btn_test_drawer_layout);
         mBtnTestKeyboard = findViewById(R.id.btn_test_keyboard);
+        mBtnTestSum = findViewById(R.id.btn_test_sum);
     }
 
 

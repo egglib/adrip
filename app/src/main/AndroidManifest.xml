@@ -27,6 +27,8 @@
             android:windowSoftInputMode="stateVisible" />
         <activity android:name=".activity.TestKeyboard1Activity" />
         <activity android:name=".activity.TestKeyBoard2Activity" />
+        <activity android:name=".activity.TestActivity"
+            android:launchMode="singleTask"/>
     </application>
 
 </manifest>
