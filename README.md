@@ -24,3 +24,5 @@ http://greenrobot.org/
 
 #### 动画
 http://svga.io/
+
+https://github.com/ChadCSong/ShineButton
