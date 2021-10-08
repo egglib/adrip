@@ -28,3 +28,8 @@ http://svga.io/
 https://github.com/ChadCSong/ShineButton
 
 https://hndeveloper.github.io/2017/github-android-ui.html#%E6%8A%BD%E5%B1%89%E8%8F%9C%E5%8D%95
+
+
+https://unpkg.com/react@16/umd/react.development.js
+https://unpkg.com/react-dom@16/umd/react-dom.development.js
+https://unpkg.com/babel-standalone@6/babel.min.js
